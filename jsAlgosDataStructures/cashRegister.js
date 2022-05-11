@@ -4,6 +4,8 @@ console.log(new Date(2022, 4, 5, 19, 34));
 function checkCashRegister(price, cash, cid) {
   cid = cid.reverse();
   let balanceVal = cash - price;
+  balanceVal = parseFloat(balanceVal.toFixed(2));
+
   let denomArr = [100, 20, 10, 5, 1, 0.25, 0.1, 0.05, 0.01];
   let changeQuantArr = cid.map(function (val) {
     return parseFloat(val[1]);
@@ -12,7 +14,7 @@ function checkCashRegister(price, cash, cid) {
     return (total += val[1]);
   }, 0);
   let resultObj = { status: 'DEFAULT', change: [] };
-  if (changeTotVal < balanceVal) {
+  if (changeTotVal < balanceVal || balanceVal < 0) {
     resultObj.status = 'INSUFFICIENT_FUNDS';
     return resultObj;
   } else if (changeTotVal == balanceVal) {
@@ -33,7 +35,7 @@ function checkCashRegister(price, cash, cid) {
       resultObj.status = 'INSUFFICIENT_FUNDS';
       return resultObj;
     } else if (balanceVal >= denomArr[i] && cid[i][1] !== 0) {
-      const quant = Math.min(parseInt((balanceVal + 0.01) / denomArr[i]), cid[i][1] / denomArr[i]);
+      const quant = Math.min(parseInt((balanceVal) / denomArr[i]), cid[i][1] / denomArr[i]);
       console.log(quant);
 
       resultObj.change.push([cid[i][0], quant * denomArr[i]]);
@@ -48,7 +50,7 @@ function checkCashRegister(price, cash, cid) {
 }
 
 console.log(
-  checkCashRegister(3.26, 100, [
+  checkCashRegister(9, 10, [
     ['PENNY', 1.01],
     ['NICKEL', 2.05],
     ['DIME', 3.1],
