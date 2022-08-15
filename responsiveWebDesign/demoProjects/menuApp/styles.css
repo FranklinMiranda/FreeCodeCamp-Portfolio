@@ -11,6 +11,8 @@ h2 {
 
 h1 {
   font-size: 40px;
+  margin-top:0px;
+  margin-bottom:15px;
 }
 h2 {
   font-size: 30px;
@@ -19,11 +21,23 @@ h2 {
 body {
   background-image: url(/responsiveWebDesign/images/ollie1.jpeg);
   font-family: sans-serif, serif;
+  padding: 20px;
 }
 
 hr {
-  height: 3px;
+  height: 2px;
   background-color: brown;
+  border-color: brown;
+}
+
+img {display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -25px;
+    }
+
+.bottom-line {
+  margin-top: 25px;
 }
 
 .menu {
@@ -37,6 +51,9 @@ hr {
 
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .flavor,
@@ -53,3 +70,25 @@ hr {
 .established {
   font-style: italic;
 }
+
+.address {margin-bottom:5px;}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: grey;
+}
+
+a:hover {
+    color: brown;
+  }
+
+  a:active {
+    color: white;
+  }
