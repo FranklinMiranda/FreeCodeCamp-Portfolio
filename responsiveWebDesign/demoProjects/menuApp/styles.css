@@ -5,5 +5,12 @@ p {
 }
 
 body {
+ /*  background-color: burlywood; */
+}
+
+div {
+  width: 80%;
   background-color: burlywood;
+  margin-left:auto;
+  margin-right:auto;
 }
