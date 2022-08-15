@@ -4,13 +4,52 @@ p {
   text-align: center;
 }
 
-body {
- /*  background-color: burlywood; */
+h1,
+h2 {
+  font-family: Impact;
 }
 
-div {
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+
+body {
+  background-image: url(/responsiveWebDesign/images/ollie1.jpeg);
+  font-family: sans-serif, serif;
+}
+
+hr {
+  height: 3px;
+  background-color: brown;
+}
+
+.menu {
   width: 80%;
   background-color: burlywood;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.item p {
+  display: inline-block;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.established {
+  font-style: italic;
 }
