@@ -4,7 +4,7 @@ body {
   margin: 0;
   background-color: #1b1b32;
   color: #f5f6f7;
-  font:Tahoma;
+  font-family:Tahoma;
   font-size:16px;
 }
 
@@ -12,3 +12,6 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
+
+h1, p {margin: 1em auto;
+    text-align:center;}
