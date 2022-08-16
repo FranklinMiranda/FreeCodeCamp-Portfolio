@@ -2,9 +2,9 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: #1b1b32;
+  background-color: #121297;
   color: #f5f6f7;
-  font-family: Tahoma;
+  font-family: serif;
   font-size: 16px;
 }
 
@@ -47,4 +47,27 @@ input[type='submit'] {
     background-color: #3b3b4f;
     border-color: white;
   }
-  
+
+  input,
+textarea,
+select {
+  width: 100%;
+  margin: 10px 0 0 0;
+  color: #ff0000;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+}
+
+.inline {
+  width: unset;
+  margin-right: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  vertical-align: middle;
+}
