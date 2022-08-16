@@ -47,6 +47,8 @@ h1 {
 
 .six {
   background-color: green;
+  box-shadow: 0 0 20px 0 green;
+
 }
 
 .tertiary {
