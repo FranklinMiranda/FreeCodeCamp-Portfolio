@@ -69,6 +69,8 @@ h1 {
 
 .nine {
   background-color: rgb(127, 192, 0);
+  box-shadow: 0 0 20px 0 rgb(127, 192, 0);
+
 }
 
 .ten {
