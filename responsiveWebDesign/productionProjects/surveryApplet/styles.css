@@ -36,3 +36,15 @@ fieldset {
 fieldset:last-of-type {
   border-bottom: none;
 }
+
+input[type='submit'] {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin: 1em auto 1em;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+  }
+  
