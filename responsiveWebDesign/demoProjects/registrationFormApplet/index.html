@@ -28,7 +28,16 @@
       </fieldset>
       <fieldset>
         <label><input type="file" />Upload a profile picture:</label>
-        <label>Input your age (years): <input type="number" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label
+          >How did you hear about us?<select>
+            <option value="">(select one)</option>
+            <option value="1">News</option>
+            <option value="2">YouTube Channel</option>
+            <option value="3">Forum</option>
+            <option value="4">Other</option>
+          </select></label
+        >
       </fieldset>
       <input type="submit" value="Submit" />
     </form>
