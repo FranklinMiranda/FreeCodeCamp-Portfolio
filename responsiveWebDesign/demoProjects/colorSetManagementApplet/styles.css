@@ -86,6 +86,8 @@ h1 {
 
 .twelve {
   background-color: rgb(255, 210, 0);
+  box-shadow: 0 0 20px 0 rgb(255, 210, 0);
+
 }
 
 .cap {
