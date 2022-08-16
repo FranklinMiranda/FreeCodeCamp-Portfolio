@@ -3,40 +3,71 @@ h1 {
 }
 
 .colorSet {
-  width:200px;
-  height:25px;
+  width: 200px;
+  height: 25px;
   margin: 10px auto;
 }
 
-.primary{background-color: rgb(255, 255, 255);}
+.primary {
+  background-color: rgb(255, 255, 255);
+}
 
-.one {background-color: red;}
+.one {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 red;
+}
 
-.two {background-color: blue;}
+.two {
+  background-color: blue;
+}
 
-.three {background-color: yellow;}
+.three {
+  background-color: yellow;
+}
 
-.secondary {background-color: rgb(255, 255, 255);}
+.secondary {
+  background-color: rgb(255, 255, 255);
+}
 
-.four {background-color: orange;}
+.four {
+  background-color: orange;
+}
 
-.five {background-color: violet;}
+.five {
+  background-color: violet;
+}
 
-.six {background-color: green;}
+.six {
+  background-color: green;
+}
 
-.tertiary {background-color: rgb(255, 255, 255);}
+.tertiary {
+  background-color: rgb(255, 255, 255);
+}
 
-.seven {background-color: orangered;}
+.seven {
+  background-color: orangered;
+}
 
-.eight {background-color: blueviolet;}
+.eight {
+  background-color: blueviolet;
+}
 
-.nine {background-color: rgb(127,192,0);}
+.nine {
+  background-color: rgb(127, 192, 0);
+}
 
-.ten {background-color: rgb(247,65,119);}
+.ten {
+  background-color: rgb(247, 65, 119);
+}
 
-.eleven {background-color: rgb(0,64,127);}
+.eleven {
+  background-color: rgb(0, 64, 127);
+}
 
-.twelve {background-color: rgb(255,210,0);}
+.twelve {
+  background-color: rgb(255, 210, 0);
+}
 
 .cap {
   width: 60px;
@@ -50,10 +81,7 @@ h1 {
   border-left: 10px double rgba(0, 0, 0, 0.75);
 }
 
-.cap, .sleeve {
+.cap,
+.sleeve {
   display: inline-block;
 }
-
-
-background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-  box-shadow: 0 0 20px 0 blue;
