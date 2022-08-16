@@ -60,7 +60,7 @@ textarea {
   border: 1px solid #0a0a23;
 }
 
-input[value='Submit'] {
+input[type='submit'] {
   display: block;
   width: 60%;
 }
