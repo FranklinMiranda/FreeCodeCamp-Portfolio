@@ -75,6 +75,7 @@ h1 {
 
 .ten {
   background-color: rgb(247, 65, 119);
+  box-shadow: 0 0 20px 0 rgb(247, 65, 119);
 }
 
 .eleven {
