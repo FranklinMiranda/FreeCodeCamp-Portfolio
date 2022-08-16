@@ -80,6 +80,8 @@ h1 {
 
 .eleven {
   background-color: rgb(0, 64, 127);
+  box-shadow: 0 0 20px 0 rgb(0, 64, 127);
+
 }
 
 .twelve {
