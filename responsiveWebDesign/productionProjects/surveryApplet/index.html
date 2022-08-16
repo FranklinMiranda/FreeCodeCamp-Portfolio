@@ -28,14 +28,25 @@
 
       <fieldset>
         <label
-          >How did you hear about us?<select name="selector">
+          >How did you hear about us?<select id="dropdown" name="selector">
             <option value="">(select one)</option>
             <option value="1">News</option>
-            <option value="2">YouTube Channel</option>
-            <option value="3">Forum</option>
-            <option value="4">Other</option>
+            <option value="2">YouTube</option>
           </select></label
         >
+
+        <label><input class="inline" type="radio" name="contact" /> Personal Contact</label>
+        <label><input class="inline" type="radio" name="contact" /> Business Contact</label>
+      </fieldset>
+
+      <fieldset>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="front-end" required />Front-End </label>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="back-end" required />Back-End </label>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="full-stack" required />Full-Stack </label>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="dev-ops" required />Dev-Ops </label>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="sre" required />SRE</label>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="cybersecurity" required />Cybersecurity </label>
+        <label> <input class="inline" type="checkbox" name="checkbox" value="data-science" required />Data-Science </label>
       </fieldset>
     </form>
   </body>
