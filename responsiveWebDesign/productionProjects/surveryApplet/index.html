@@ -11,10 +11,31 @@
     <p>A survey form to provide our clients with accurate and respondable information.</p>
     <form id="survey-form">
       <fieldset>
-        <label>Enter Your Name: <input id="name" type="text" name="name" required /></label>
-        <label>Enter Your Email Address: <input id="email" type="email" name="email" required /></label>
-        <label>Create a New Password: <input id="password" type="password" name="password" minlength="8" required /></label>
-        <label>Enter a Number: <input id="number" type="number" name="number" min="5" max="120" required /></label>
+        <label id="name-label"
+          >Enter Your Name: <input id="name" type="text" name="name" placeholder="Name" required
+        /></label>
+        <label id="email-label"
+          >Enter Your Email Address: <input id="email" type="email" name="email" placeholder="E-mail" required
+        /></label>
+        <label id="password-label"
+          >Create a New Password:
+          <input id="password" type="password" name="password" minlength="8" placeholder="Password" required
+        /></label>
+        <label id="number-label"
+          >Enter a Number: <input id="number" type="number" name="number" min="5" max="120" placeholder="Number" required
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <label
+          >How did you hear about us?<select name="selector">
+            <option value="">(select one)</option>
+            <option value="1">News</option>
+            <option value="2">YouTube Channel</option>
+            <option value="3">Forum</option>
+            <option value="4">Other</option>
+          </select></label
+        >
       </fieldset>
     </form>
   </body>
