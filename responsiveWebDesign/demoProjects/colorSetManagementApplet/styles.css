@@ -63,6 +63,8 @@ h1 {
 
 .eight {
   background-color: blueviolet;
+  box-shadow: 0 0 20px 0 blueviolet;
+
 }
 
 .nine {
