@@ -10,8 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
-  font-weight: 800;
+header h1 {
   text-align: center;
   margin: -4px 0 -4px 0;
   letter-spacing: 0.15px;
