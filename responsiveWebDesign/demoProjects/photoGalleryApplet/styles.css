@@ -12,6 +12,8 @@
   width: 100%;
   max-width: 350px;
   height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
