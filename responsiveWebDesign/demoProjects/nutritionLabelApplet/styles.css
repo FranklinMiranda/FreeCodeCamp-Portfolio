@@ -61,4 +61,9 @@ p {
 .calories-info span {
   font-size: 1.2em;
   overflow: hidden;
+  margin-top: -7px;
+}
+
+.md {
+  height: 5px;
 }
