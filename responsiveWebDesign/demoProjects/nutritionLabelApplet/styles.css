@@ -36,3 +36,7 @@ p {
 .bold {
   font-weight: 800;
 }
+
+.right {
+  float: right;
+}
