@@ -10,6 +10,10 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-weight: 800;
+}
+
 .label {
   border: 2px solid black;
   width: 270px;
