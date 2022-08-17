@@ -6,14 +6,19 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .gallery img {
   width: 100%;
   max-width: 350px;
   height: 300px;
-  justify-content: center;
-  align-items: center;
+
+  object-fit: cover;
 }
 
 body {
