@@ -13,6 +13,7 @@ body {
 h1 {
   font-weight: 800;
   text-align: center;
+  margin: -4px 0 -4px 0;
 }
 
 .label {
@@ -20,4 +21,8 @@ h1 {
   width: 270px;
   margin: 20px auto;
   padding: 0 7px;
+}
+
+p {
+  margin: 0;
 }
