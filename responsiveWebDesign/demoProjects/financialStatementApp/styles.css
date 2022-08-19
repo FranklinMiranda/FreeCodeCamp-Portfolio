@@ -28,7 +28,7 @@ span[class~="sr-only"] {
   }
   
   h1 .flex {
-    display: ;
+    display: flex;
     flex-direction: column-reverse;
     gap: 1rem;
   }
